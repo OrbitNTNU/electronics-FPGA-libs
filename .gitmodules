@@ -1,0 +1,3 @@
+[submodule "electronics-verilator"]
+	path = electronics-verilator
+	url = git@github.com:OrbitNTNU/electronics-verilator.git
