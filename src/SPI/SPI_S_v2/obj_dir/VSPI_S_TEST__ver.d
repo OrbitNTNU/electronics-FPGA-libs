@@ -1,0 +1,1 @@
+obj_dir/VSPI_S_TEST.cpp obj_dir/VSPI_S_TEST.h obj_dir/VSPI_S_TEST.mk obj_dir/VSPI_S_TEST__Slow.cpp obj_dir/VSPI_S_TEST__Syms.cpp obj_dir/VSPI_S_TEST__Syms.h obj_dir/VSPI_S_TEST__Trace.cpp obj_dir/VSPI_S_TEST__Trace__Slow.cpp obj_dir/VSPI_S_TEST__ver.d obj_dir/VSPI_S_TEST_classes.mk  : /usr/local/bin/verilator_bin /usr/local/bin/verilator_bin src/SPI_S_TEST.sv src/Slave_modul.sv 

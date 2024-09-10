@@ -1,0 +1,410 @@
+/*
+
+AMD Vivado v2023.2 (64-bit) [Major: 2023, Minor: 2]
+SW Build: 4029153 on Fri Oct 13 20:13:54 MDT 2023
+IP Build: 4028589 on Sat Oct 14 00:45:43 MDT 2023
+IP Build: 4028589 on Sat Oct 14 00:45:43 MDT 2023
+
+Process ID (PID): 5939
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Fri Apr 26 15:42:40 CEST 2024
+Time zone: 	Central European Standard Time (Europe/Oslo)
+
+OS: Ubuntu
+OS Version: 6.5.0-1019-oem
+OS Architecture: amd64
+Available processors (cores): 20
+LSB Release Description: DISTRIB_ID=Ubuntu
+
+Display: 1
+Screen size: 3072x1920
+Local screen bounds: x = 104, y = 54, width = 2968, height = 1866
+Screen resolution (DPI): 200
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=24
+Scale size: 48
+OS font scaling: 200%
+Anti-Alias Enabled: false
+
+Java version: 	17.0.7 64-bit
+JavaFX version: 17.0.1
+Java home: 	/home/eskilrl/xilinx/Vivado/2023.2/tps/lnx64/jre17.0.7_7
+Java executable: 	/home/eskilrl/xilinx/Vivado/2023.2/tps/lnx64/jre17.0.7_7/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Djdk.gtk.version=2, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m, -Xrs]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	eskilrl
+User home directory: /home/eskilrl
+User working directory: /home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_TEST
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/eskilrl/xilinx/Vivado
+HDI_APPROOT: /home/eskilrl/xilinx/Vivado/2023.2
+RDI_DATADIR: /home/eskilrl/xilinx/Vivado/2023.2/data
+RDI_BINDIR: /home/eskilrl/xilinx/Vivado/2023.2/bin
+
+Vivado preferences file: /home/eskilrl/.Xilinx/Vivado/2023.2/vivado.xml
+Vivado preferences directory: /home/eskilrl/.Xilinx/Vivado/2023.2/
+Vivado layouts directory: /home/eskilrl/.Xilinx/Vivado/2023.2/data/layouts
+PlanAhead jar file: 	/home/eskilrl/xilinx/Vivado/2023.2/lib/classes/planAhead.jar
+Vivado log file: 	/home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_TEST/vivado.log
+Vivado journal file: 	/home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_TEST/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-5939-eskilrl-Yoga-Pro-9-14IRP8
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+GNOME_SHELL_SESSION_MODE: ubuntu
+RDI_APPROOT: /home/eskilrl/xilinx/Vivado/2023.2
+RDI_BASEROOT: /home/eskilrl/xilinx/Vivado
+RDI_BINROOT: /home/eskilrl/xilinx/Vivado/2023.2/bin
+RDI_BUILD: yes
+RDI_DATADIR: /home/eskilrl/xilinx/Vivado/2023.2/data
+RDI_INSTALLROOT: /home/eskilrl/xilinx
+RDI_INSTALLVER: 2023.2
+RDI_JAVA_PLATFORM: 
+RDI_JAVA_VERSION: 17.0.7_7
+RDI_LIBDIR: /home/eskilrl/xilinx/Vivado/2023.2/lib/lnx64.o/Ubuntu/22:/home/eskilrl/xilinx/Vivado/2023.2/lib/lnx64.o/Ubuntu:/home/eskilrl/xilinx/Vivado/2023.2/lib/lnx64.o
+RDI_OPT_EXT: .o
+RDI_PATCHROOT: 
+RDI_PLATFORM: lnx64
+RDI_PREPEND_PATH: /home/eskilrl/xilinx/Vivado/2023.2/ids_lite/ISE/bin/lin64
+RDI_PROG: /home/eskilrl/xilinx/Vivado/2023.2/bin/unwrapped/lnx64.o/vivado
+RDI_SESSION_INFO: /home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_TEST:eskilrl-Yoga-Pro-9-14IRP8_1714138951_5898
+RDI_SHARED_DATA: /home/eskilrl/xilinx/SharedData/2023.2/data
+RDI_TPS_ROOT: /home/eskilrl/xilinx/Vivado/2023.2/tps/lnx64
+RDI_USE_JDK17: True
+SHELL: /bin/bash
+XILINX: /home/eskilrl/xilinx/Vivado/2023.2/ids_lite/ISE
+XILINX_DSP: /home/eskilrl/xilinx/Vivado/2023.2/ids_lite/ISE
+XILINX_HLS: /home/eskilrl/xilinx/Vitis_HLS/2023.2
+XILINX_PLANAHEAD: /home/eskilrl/xilinx/Vivado/2023.2
+XILINX_VIVADO: /home/eskilrl/xilinx/Vivado/2023.2
+XILINX_VIVADO_HLS: /home/eskilrl/xilinx/Vivado/2023.2
+
+
+GUI allocated memory:	626 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 1,671 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/TestLibs/project_1/project_1.xpr", 0); // b.c (PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS)
+// Opening Vivado Project: /home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/TestLibs/project_1/project_1.xpr. Version: Vivado v2023.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project /home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/TestLibs/project_1/project_1.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,751 MB. GUI used memory: 89 MB. Current time: 4/26/24, 3:42:41 PM CEST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 154 MB (+158694kb) [00:00:09]
+// [Engine Memory]: 1,770 MB (+1704761kb) [00:00:09]
+// [GUI Memory]: 163 MB (+1266kb) [00:00:09]
+// WARNING: HEventQueue.dispatchEvent() is taking  1337 ms.
+// Tcl Message: open_project /home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/TestLibs/project_1/project_1.xpr 
+// Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/TestLibs/project_1/project_1.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/eskilrl/xilinx/Vivado/2023.2/data/ip'. 
+// Project name: project_1; location: /home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/TestLibs/project_1; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:05 . Memory (MB): peak = 7941.766 ; gain = 433.680 ; free physical = 24280 ; free virtual = 30753 
+dismissDialog("Open Project"); // bq (Open Project Progress)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 0); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, SPI_SLAVE_TEST.xdc]", 5, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, SPI_SLAVE_TEST.xdc]", 5, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// [Engine Memory]: 1,867 MB (+8726kb) [00:00:16]
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Critical Messages"); // a (dialog0)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SPI_SLAVE_TEST (SPI_SLAVE_TEST.sv)]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SPI_SLAVE_TEST (SPI_SLAVE_TEST.sv)]", 2, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SPI_SLAVE_TEST (SPI_SLAVE_TEST.sv)]", 2, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SPI_SLAVE_TEST (SPI_SLAVE_TEST.sv)]", 2, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 1,954 MB. GUI used memory: 97 MB. Current time: 4/26/24, 3:43:01 PM CEST
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // al (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ao (RDIResourceCommand.RDICommands_DELETE, global_delete_menu)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Remove Sources"); // X (dialog1)
+// Tcl Message: export_ip_user_files -of_objects  [get_files /home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/TestLibs/SPI_SLAVE_TEST.sv] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  /home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/TestLibs/SPI_SLAVE_TEST.sv 
+// Elapsed Time for: 'L.f': 22s
+// Elapsed Time for: 'L.f': 24s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed Time for: 'L.f': 26s
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// [GUI Memory]: 171 MB (+453kb) [00:00:36]
+// [Engine Memory]: 1,974 MB (+13707kb) [00:00:36]
+// Elapsed Time for: 'L.f': 28s
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, Slave_modul.sv]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, Slave_modul.sv]", 2, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // al (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ao (RDIResourceCommand.RDICommands_DELETE, global_delete_menu)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Remove Sources"); // X (dialog2)
+// Tcl Message: export_ip_user_files -of_objects  [get_files /home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/slave_module/Slave_modul.sv] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  /home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/slave_module/Slave_modul.sv 
+// Elapsed Time for: 'L.f': 36s
+// Elapsed Time for: 'L.f': 38s
+// HMemoryUtils.trashcanNow. Engine heap size: 2,000 MB. GUI used memory: 96 MB. Current time: 4/26/24, 3:43:21 PM CEST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Utility Sources]", 3, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT)
+// Elapsed time: 11 seconds
+setFileChooser("/home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_TEST/SPI_S_TEST.sv");
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT)
+setFileChooser("/home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_TEST/Slave_modul.sv");
+selectButton("FINISH", "Finish"); // JButton (FINISH)
+// 'f' command handler elapsed time: 32 seconds
+dismissDialog("Add Sources"); // c (dialog3)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse {/home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_TEST/SPI_S_TEST.sv /home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_TEST/Slave_modul.sv} 
+// [GUI Memory]: 181 MB (+1424kb) [00:01:27]
+// Elapsed Time for: 'L.f': 01m:18s
+// HMemoryUtils.trashcanNow. Engine heap size: 2,024 MB. GUI used memory: 99 MB. Current time: 4/26/24, 3:44:01 PM CEST
+// Elapsed Time for: 'L.f': 01m:20s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed Time for: 'L.f': 01m:22s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SPI_S_TEST (SPI_S_TEST.sv)]", 2, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SPI_S_TEST (SPI_S_TEST.sv)]", 2, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// [Engine Memory]: 2,080 MB (+8241kb) [00:01:33]
+// Elapsed Time for: 'L.f': 01m:24s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Slave_modul (SPI_S_TEST.sv)]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Slave_modul (SPI_S_TEST.sv)]", 4, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Slave_modul (Slave_modul.sv)]", 5, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Slave_modul (Slave_modul.sv)]", 5, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Slave_modul (SPI_S_TEST.sv)]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SPI_S_TEST (SPI_S_TEST.sv), SPI_INST : xil_defaultlib.Slave_modul]", 3, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Slave_modul (SPI_S_TEST.sv)]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Slave_modul (Slave_modul.sv)]", 5, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Run Linter]", 12, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// TclEventType: MSGMGR_REFRESH_MSG
+// Tcl Message: synth_design -top SPI_S_TEST -part xc7a35tcpg236-1 -lint  
+// Tcl Message: Command: synth_design -top SPI_S_TEST -part xc7a35tcpg236-1 -lint Starting synth_design Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t' 
+// Tcl Message: INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t' 
+// [Engine Memory]: 2,265 MB (+84996kb) [00:01:48]
+// TclEventType: ELABORATE_FAIL
+// TclEventType: DESIGN_NEW_FAILED
+// TclEventType: LINTER_RUN
+// Tcl Message: INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes. INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes INFO: [Synth 8-7075] Helper process launched with PID 6315 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 8522.754 ; gain = 327.816 ; free physical = 23636 ; free virtual = 30114 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Clean up Linter database... 
+// Tcl Message: ERROR: [Synth 8-11283] variable 'MISO_Data' is written to by both continuous and procedural assignments [/home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_TEST/Slave_modul.sv:114] 
+// Tcl Message: INFO: [Synth 8-10285] module 'Slave_modul' is ignored due to previous errors [/home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_TEST/Slave_modul.sv:119] INFO: [Synth 8-9084] Verilog file '/home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_TEST/Slave_modul.sv' ignored due to errors 
+// Tcl Message: ERROR: [Synth 8-439] module 'SPI_S_TEST' not found 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 8600.824 ; gain = 405.887 ; free physical = 23532 ; free virtual = 30013 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: synthesize failed 
+// Tcl Message: INFO: [Common 17-83] Releasing license: Synthesis 
+// Tcl Message: 7 Infos, 3 Warnings, 0 Critical Warnings and 2 Errors encountered. synth_design completed successfully 
+// Tcl Message: ERROR: [Common 17-39] 'synth_design' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'synth_design' failed due to earlier errors.  
+// HOptionPane Error: 'Run Linter Failed. Check Messages for details. (Run Linter Failed)'
+// HMemoryUtils.trashcanNow. Engine heap size: 2,557 MB. GUI used memory: 101 MB. Current time: 4/26/24, 3:44:26 PM CEST
+// 'a' command handler elapsed time: 7 seconds
+selectButton("OptionPane.button", "OK"); // JButton (OptionPane.button)
+// [Engine Memory]: 2,557 MB (+186887kb) [00:01:55]
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aa
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Synth 8-439] module 'SPI_S_TEST' not found. ]", 22, false); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Synth 8-439] module 'SPI_S_TEST' not found. ]", 22, false); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Synth 8-439] module 'SPI_S_TEST' not found. ]", 22, false, false, false, false, false, true); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Slave_modul (Slave_modul.sv)]", 5, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Slave_modul (SPI_S_TEST.sv)]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SPI_S_TEST (SPI_S_TEST.sv), SPI_INST : xil_defaultlib.Slave_modul]", 3, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Slave_modul (SPI_S_TEST.sv)]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Slave_modul (Slave_modul.sv)]", 5, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Synth 8-11283] variable 'MISO_Data' is written to by both continuous and procedural assignments [/home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_TEST/Slave_modul.sv:114]. ]", 19, false); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Synth 8-11283] variable 'MISO_Data' is written to by both continuous and procedural assignments [/home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_TEST/Slave_modul.sv:114]. ]", 19, false); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_TEST/Slave_modul.sv;-;;-;16;-;line;-;114;-;;-;16;-;"); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // J (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Slave_modul (Slave_modul.sv)]", 6, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Slave_modul (Slave_modul.sv)]", 6, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Slave_modul (SPI_S_TEST.sv)]", 5, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Slave_modul (SPI_S_TEST.sv)]", 5, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SPI_S_TEST (SPI_S_TEST.sv), SPI_INST : xil_defaultlib.Slave_modul]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SPI_S_TEST (SPI_S_TEST.sv)]", 3, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SystemVerilog, Slave_modul.sv]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SPI_S_TEST (SPI_S_TEST.sv)]", 3); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Slave_modul (SPI_S_TEST.sv)]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Slave_modul (SPI_S_TEST.sv)]", 4, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // al (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ao (RDIResourceCommand.RDICommands_DELETE, global_delete_menu)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Remove Sources"); // X (dialog6)
+// Tcl Message: export_ip_user_files -of_objects  [get_files /home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_TEST/SPI_S_TEST.sv] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  /home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_TEST/SPI_S_TEST.sv 
+// Elapsed Time for: 'L.f': 02m:36s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Slave_modul (Slave_modul.sv)]", 5, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Slave_modul (Slave_modul.sv)]", 5, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // al (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,589 MB. GUI used memory: 101 MB. Current time: 4/26/24, 3:45:21 PM CEST
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Remove Sources"); // X (dialog7)
+// Tcl Message: export_ip_user_files -of_objects  [get_files /home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_TEST/Slave_modul.sv] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  /home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_TEST/Slave_modul.sv 
+// Elapsed Time for: 'L.f': 02m:40s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SystemVerilog, Slave_modul.sv]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SystemVerilog, Slave_modul.sv]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed Time for: 'L.f': 02m:42s
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 2, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // al (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT)
+setFileChooser("/home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_TEST/SPI_S_TEST.sv");
+selectButton("FINISH", "Finish"); // JButton (FINISH)
+// 'f' command handler elapsed time: 7 seconds
+dismissDialog("Add Sources"); // c (dialog8)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse /home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_TEST/SPI_S_TEST.sv 
+// [GUI Memory]: 203 MB (+13207kb) [00:03:01]
+// Elapsed Time for: 'L.f': 02m:52s
+// Elapsed Time for: 'L.f': 02m:54s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed Time for: 'L.f': 02m:56s
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed Time for: 'L.f': 02m:58s
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SPI_S_TEST (SPI_S_TEST.sv)]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SPI_S_TEST (SPI_S_TEST.sv)]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Run Linter]", 12, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Tcl Message: synth_design -top SPI_S_TEST -part xc7a35tcpg236-1 -lint  
+// Tcl Message: Command: synth_design -top SPI_S_TEST -part xc7a35tcpg236-1 -lint Starting synth_design Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t' 
+// Tcl Message: INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t' 
+// TclEventType: ELABORATE_FAIL
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes. 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: LINTER_RUN
+// Tcl Message: Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 8694.719 ; gain = 0.000 ; free physical = 23812 ; free virtual = 30291 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Clean up Linter database... 
+// Tcl Message: ERROR: [Synth 8-11283] variable 'MISO_Data' is written to by both continuous and procedural assignments [Slave_modul.sv:114] 
+// Tcl Message: INFO: [Synth 8-10285] module 'Slave_modul' is ignored due to previous errors [Slave_modul.sv:119] INFO: [Synth 8-10285] module 'SPI_S_TEST' is ignored due to previous errors [/home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_TEST/SPI_S_TEST.sv:51] INFO: [Synth 8-9084] Verilog file '/home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_TEST/SPI_S_TEST.sv' ignored due to errors 
+// Tcl Message: ERROR: [Synth 8-439] module 'SPI_S_TEST' not found 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 8694.719 ; gain = 0.000 ; free physical = 23791 ; free virtual = 30270 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: synthesize failed 
+// Tcl Message: INFO: [Common 17-83] Releasing license: Synthesis 
+// Tcl Message: 6 Infos, 3 Warnings, 0 Critical Warnings and 2 Errors encountered. synth_design completed successfully 
+// Tcl Message: ERROR: [Common 17-39] 'synth_design' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'synth_design' failed due to earlier errors.  
+// HOptionPane Error: 'Run Linter Failed. Check Messages for details. (Run Linter Failed)'
+// 'a' command handler elapsed time: 4 seconds
+selectButton("OptionPane.button", "OK"); // JButton (OptionPane.button)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aa
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // f (PAResourceItoN.MsgView_INFORMATION_MESSAGES): FALSE
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // f (PAResourceItoN.MsgView_WARNING_MESSAGES): FALSE
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Synth 8-439] module 'SPI_S_TEST' not found. ]", 4, false); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SPI_S_TEST (SPI_S_TEST.sv)]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SPI_S_TEST (SPI_S_TEST.sv), SPI_INST : xil_defaultlib.Slave_modul]", 3, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SPI_S_TEST (SPI_S_TEST.sv), SPI_INST : xil_defaultlib.Slave_modul]", 3, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SPI_S_TEST (SPI_S_TEST.sv), SPI_INST : xil_defaultlib.Slave_modul]", 3, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SPI_S_TEST (SPI_S_TEST.sv)]", 2, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT)
+setFileChooser("/home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_TEST/Slave_modul.sv");
+selectButton("FINISH", "Finish"); // JButton (FINISH)
+// 'f' command handler elapsed time: 6 seconds
+dismissDialog("Add Sources"); // c (dialog10)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse /home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_TEST/Slave_modul.sv 
+// Elapsed Time for: 'L.f': 03m:44s
+// Elapsed Time for: 'L.f': 03m:46s
+// HMemoryUtils.trashcanNow. Engine heap size: 2,661 MB. GUI used memory: 101 MB. Current time: 4/26/24, 3:46:31 PM CEST
+selectButton(PAResourceEtoH.FileSetPanel_MESSAGES, "4"); // g (PAResourceEtoH.FileSetPanel_MESSAGES)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 13m:58s
+// Elapsed Time for: 'L.f': 14m:00s
+// HMemoryUtils.trashcanNow. Engine heap size: 2,678 MB. GUI used memory: 100 MB. Current time: 4/26/24, 3:56:46 PM CEST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 15m:34s
+// [Engine Memory]: 2,696 MB (+12318kb) [00:15:44]
+// Elapsed Time for: 'L.f': 15m:36s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 22m:48s
+// HMemoryUtils.trashcanNow. Engine heap size: 2,723 MB. GUI used memory: 101 MB. Current time: 4/26/24, 4:05:31 PM CEST
+// Elapsed Time for: 'L.f': 22m:50s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 23m:16s
+// Elapsed Time for: 'L.f': 23m:18s
+// HMemoryUtils.trashcanNow. Engine heap size: 2,737 MB. GUI used memory: 101 MB. Current time: 4/26/24, 4:06:01 PM CEST
+// WARNING: HEventQueue.dispatchEvent() is taking  1648 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,737 MB. GUI used memory: 100 MB. Current time: 4/26/24, 4:57:06 PM CEST

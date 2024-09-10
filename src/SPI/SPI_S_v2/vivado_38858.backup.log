@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Sep  6 18:39:58 2024
+# Process ID: 38858
+# Current directory: /home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_v2
+# Command line: vivado -mode batch -source ./flash.tcl
+# Log file: /home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_v2/vivado.log
+# Journal file: /home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_v2/vivado.jou
+# Running On: eskilrl-Yoga-Pro-9-14IRP8, OS: Linux, CPU Frequency: 502.343 MHz, CPU Physical cores: 14, Host memory: 33377 MB
+#-----------------------------------------------------------
+source ./flash.tcl
+# open_hw_manager
+# connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.2.0
+  ****** Build date   : Oct 10 2023-06:01:56
+    **** Build number : 2023.2.1696910516
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+# open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B5A5B1A
+# current_hw_device [get_hw_devices xc7a35t_0]
+# set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+# set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+# set_property PROGRAM.FILE {out/test.bit} [get_hw_devices xc7a35t_0]
+# program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+INFO: [Common 17-206] Exiting Vivado at Fri Sep  6 18:40:06 2024...

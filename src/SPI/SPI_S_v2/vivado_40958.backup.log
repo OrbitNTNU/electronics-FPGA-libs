@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Sep  6 18:47:25 2024
+# Process ID: 40958
+# Current directory: /home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_v2
+# Command line: vivado -mode batch -source ./synt.tcl
+# Log file: /home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_v2/vivado.log
+# Journal file: /home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_v2/vivado.jou
+# Running On: eskilrl-Yoga-Pro-9-14IRP8, OS: Linux, CPU Frequency: 1851.382 MHz, CPU Physical cores: 14, Host memory: 33377 MB
+#-----------------------------------------------------------
+source ./synt.tcl
+# set outputDir ./out/ 
+# file mkdir $outputDir
+# read_verilog -sv [ glob ./src/*.sv]
+# read_xdc ./SPI_S_TEST.xdc
+# synth_design -top SPI_S_TEST -part xc7a35tcpg236-1
+Command: synth_design -top SPI_S_TEST -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 40970
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2010.625 ; gain = 403.715 ; free physical = 13722 ; free virtual = 26380
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-9661] initial value of parameter 'frame_size' is omitted [src/Slave_modul.sv:3]
+ERROR: [Synth 8-2577] procedural assignment to a non-register msg_recieved is not permitted, left-hand side should be reg/integer/time/genvar [src/Slave_modul.sv:58]
+INFO: [Synth 8-10285] module 'Slave_modul' is ignored due to previous errors [src/Slave_modul.sv:90]
+INFO: [Synth 8-9084] Verilog file '/home/eskilrl/Documents/Orbit/Biosat_FPGA/electronics-FPGA-libs/src/SPI/SPI_S_v2/src/Slave_modul.sv' ignored due to errors
+ERROR: [Synth 8-439] module 'SPI_S_TEST' not found
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2083.594 ; gain = 476.684 ; free physical = 13612 ; free virtual = 26270
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+8 Infos, 1 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Fri Sep  6 18:47:36 2024...
