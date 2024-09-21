@@ -1,7 +1,14 @@
-MODULE=spi_master
+## spi_master:
+# MODULE=spi_master
+#
+# SRC_DIR = ../src/nandland
+# SRC_FILES = $(SRC_DIR)/spi_master.sv $(SRC_DIR)/spi_master_multibyte.sv
 
-SRC_DIR = ../src/nandland
-SRC_FILES = $(SRC_DIR)/spi_master.sv $(SRC_DIR)/spi_master_multibyte.sv
+#spi_slave:
+MODULE=spi_slave
+
+SRC_DIR = ../src
+SRC_FILES = $(SRC_DIR)/spi_slave.sv 
 
 .PHONY:sim
 sim: waveform.vcd
