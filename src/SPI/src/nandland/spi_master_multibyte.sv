@@ -37,7 +37,7 @@
 module spi_master_multibyte
   #(parameter unsigned SPI_MODE = 0,
     parameter unsigned CLKS_PER_HALF_BIT = 2,
-    parameter unsigned MAX_BYTES_PER_CS = 2,
+    parameter unsigned MAX_BYTES_PER_CS = 16,
     parameter unsigned CS_INACTIVE_CLKS = 1)
   (
    // Control/Data Signals,
@@ -183,5 +183,4 @@ module spi_master_multibyte
   assign o_SPI_CS_n = r_CS_n;
 
   assign o_TX_Ready  = ((r_SM_CS == IDLE) | (r_SM_CS == TRANSFER && w_Master_Ready == 1'b1 && r_TX_Count > 0)) & ~i_TX_DV;
-
 endmodule // SPI_Master_With_Single_CS
