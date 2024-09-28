@@ -17,6 +17,7 @@ module top_spi_slave (
 
     wire SCK_IBUF;
     IBUFG sck_ibuf_inst (.I(SCK), .O(SCK_IBUF));
+    // assign SCK_IBUF = SCK;
 
     logic [7:0] w_RX_Byte;
     logic w_RX_DV;

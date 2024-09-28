@@ -23,11 +23,9 @@ module top_spi_master
     output LED_rst
     );
 
-    localparam unsigned ClksPerShownByte = 50_000_000;
-
-    localparam unsigned MaxNumBytesPerCS = 8;
+    localparam unsigned MaxNumBytesPerCS = 2;
     localparam unsigned ClksPerHalfBit = 10;     // 1.0 Mhz
-    localparam unsigned CSInactiveClks = 8;
+    localparam unsigned CSInactiveClks = 1;
 
     logic [$clog2(MaxNumBytesPerCS+1)-1:0] r_TX_Count = 1;
     logic [$clog2(MaxNumBytesPerCS+1)-1:0] w_RX_Count;
