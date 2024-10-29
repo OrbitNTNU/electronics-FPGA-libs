@@ -1,4 +1,3 @@
-
 module hex_display (
     input clk,
     input  logic [15:0] i_byte,
